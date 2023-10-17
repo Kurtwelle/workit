@@ -275,11 +275,11 @@ h4{
     justify-items: center;
     margin-left: 650px;
     background-color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 350px;
+    
 }
 
 h5{
-    justify-content: center;
     font-size: 20px;
     justify-content: center;
     font-family:'Times New Roman', Times, serif ;
@@ -305,4 +305,12 @@ h5{
 .gmailicon{
     height: 20px;
     width: 20px;
+}
+
+@mobile ( max-width: 896px ){
+    .container{
+        background-color:navy blue;
+        width:100px;
+    }
+    .
 }
