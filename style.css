@@ -307,10 +307,86 @@ h5{
     width: 20px;
 }
 
-@mobile ( max-width: 896px ){
+@media(max-width: 896px){
     .container{
         background-color:navy blue;
-        width:100px;
+        width:100vh;
+        height: 30vh;
+        display: block;
+        flex-direction: column;
     }
-    .
+    .topborder{
+        font-display: column;
+        flex-direction: column;
+        background-color: rgb(26, 2, 36);
+        color: #ffffff;
+        justify-content: center;
+        align-content: center;
+        height: 50vh;
+        width: 30vh;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        padding: 10px;
+        /* margin: 20px; */
+    }
+
+    .topcontent{
+        display: block;
+        flex-direction: column;
+        width: 30vh;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        /* margin-left: 50px;
+        margin-top: 30px; */
+    }
+
+    .apply{
+        justify-content: flex-start;
+        align-items: center;
+        display: block;
+        margin-right: 0px;
+    }
+
+    .middle{
+        display: block;
+        flex-direction:column;
+        width:300px;
+        height:75vh;
+    }
+    .firstcontent{
+        margin-bottom: 40px;
+    }
+    .no1{
+        justify-content: center;
+        margin-left: 120px;
+    }
+    .secondcontent{
+        margin-bottom: 40px;
+    }
+    .no2{
+        margin-left: 120px;
+    }
+    .no3{
+        margin-left: 120px;
+    }
+    .bottom{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0dec79;
+        margin-left: 20px;
+    }
+    .dev{
+        display: flex;
+        margin-left: 150px;
+    }
+
+    .lastcontent{
+        margin-top:50px;
+        width: 200px;
+        position: relative;
+        top: 70px;
+    }
 }
